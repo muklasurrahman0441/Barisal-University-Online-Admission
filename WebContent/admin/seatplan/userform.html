@@ -1,0 +1,86 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+ 
+
+
+
+
+</head>
+<body>
+
+ <div class="jumbotron jumbotron-fluid text-center text-info">
+  <h1> Add Seat Plan  </h1>    
+  <p class="text-danger" > Note : Type seat plan carefully . It will be downloaded with applicant's admit card .  </p>
+ </div>
+ 
+<div class="container  text-center">
+
+<p class="display-4  bg-light">  <a href="viewusers.jsp">View All Records</a></p>
+
+
+<h1 class="text-info" >Add Exam center</h1>
+
+
+<form action="adduser.jsp" method="post">
+
+<table  class="table bg-light table-hover">
+
+<tr>
+<td>Serial:</td>
+<td><input type="number" name="serial"  required/></td>
+</tr>
+
+<tr>
+<td>Exam Center :</td>
+<td><input type="text" name="center" required/></td>
+</tr>
+
+<tr>
+<td>Address :</td>
+<td><input type="text" name="address"  required/></td>
+</tr>
+
+<tr>
+<td>Room :</td>
+<td><input type="text" name="room" required/></td>
+</tr>
+
+
+
+<tr>
+<td>Capacity:</td>
+<td><input type="number" name="capacity" required/></td>
+</tr>
+
+<tr>
+<td>First Range:</td>
+<td><input type="text" name="frange" required/></td>
+</tr>
+
+<tr>
+<td>Last Range :</td>
+<td><input type="text" name="lrange"  required/></td>
+</tr>
+
+
+<tr>
+<td colspan="2"><input type="submit" value="Add User"/>
+</td>
+</tr>
+
+</table>
+</form>
+
+</div>
+
+</body>
+</html>
